@@ -25,8 +25,16 @@
     "help": "nx help"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "document-register-element": "1.13.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.1"
+  },
   "devDependencies": {
+    "@nrwl/express": "^8.4.4",
+    "@nrwl/nest": "^8.4.4",
+    "@nrwl/node": "^8.4.4",
     "@nrwl/react": "^8.4.4",
     "@nrwl/workspace": "8.4.4",
     "@types/node": "~8.9.4",
@@ -34,6 +42,25 @@
     "prettier": "1.16.4",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.4.5"
+    "typescript": "~3.4.5",
+    "@nrwl/jest": "8.4.4",
+    "jest": "24.1.0",
+    "@types/jest": "24.0.9",
+    "ts-jest": "24.0.0",
+    "cypress": "3.4.0",
+    "@nrwl/cypress": "8.4.4",
+    "@nrwl/web": "8.4.4",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.5",
+    "@testing-library/react": "8.0.5",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.3.3",
+    "@babel/plugin-proposal-decorators": "7.4.4",
+    "babel-loader": "8.0.6",
+    "babel-plugin-macros": "2.6.1",
+    "core-js": "3.1.4",
+    "regenerator-runtime": "0.13.3"
   }
 }
